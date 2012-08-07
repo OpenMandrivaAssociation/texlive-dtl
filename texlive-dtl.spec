@@ -1,12 +1,12 @@
-# revision 23089
+# revision 26689
 # category TLCore
 # catalog-ctan /dviware/dtl
-# catalog-date 2009-11-09 15:03:08 +0100
+# catalog-date 2012-04-09 22:37:34 +0200
 # catalog-license pd
 # catalog-version 0.6.1
 Name:		texlive-dtl
 Version:	0.6.1
-Release:	2
+Release:	3
 Summary:	Tools to dis-assemble and re-assemble DVI files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/dviware/dtl
