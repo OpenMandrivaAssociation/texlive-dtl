@@ -1,18 +1,12 @@
-# revision 33818
-# category TLCore
-# catalog-ctan /dviware/dtl
-# catalog-date 2012-04-09 22:37:34 +0200
-# catalog-license pd
-# catalog-version 0.6.1
 Name:		texlive-dtl
-Version:	0.6.1
-Release:	14
+Version:	62387
+Release:	1
 Summary:	Tools to dis-assemble and re-assemble DVI files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/dviware/dtl
 License:	PD
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtl.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtl.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtl.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtl.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -35,7 +29,7 @@ infelicities of dvitype (among other pressing reasons).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
