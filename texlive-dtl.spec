@@ -3,7 +3,7 @@ Version:	62387
 Release:	2
 Summary:	Tools to dis-assemble and re-assemble DVI files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/dviware/dtl
+URL:		https://www.ctan.org/tex-archive/dviware/dtl
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/dtl.doc.r%{version}.tar.xz
